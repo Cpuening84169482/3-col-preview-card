@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL:[3 column preview card](https://cpuening84169482.github.io/3-col-preview-card/)
+- Live Site URL: [3 column preview card](https://cpuening84169482.github.io/3-col-preview-card/)
 
 ## My process
 
