@@ -45,12 +45,36 @@ Users should be able to:
 
 I reinforced my knowledge of using CSS Grid, and line heights.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.cyan{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 6%;
+    border: solid 2px hsl(0, 0%, 95%);
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.cyan:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 6%;
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
 }
 ```
 
