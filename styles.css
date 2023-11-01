@@ -1,0 +1,191 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    padding: 5% 5% 5% 5%;
+
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.orange{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 6%;
+    border: solid 2px hsl(0, 0%, 95%);
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.orange:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    padding: 6%;
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+
+}
+
+.cyan{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 6%;
+    border: solid 2px hsl(0, 0%, 95%);
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.cyan:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 6%;
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.dark-cyan{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 6%;
+    border: solid 2px hsl(0, 0%, 95%);
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.dark-cyan:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    padding: 6%;
+    text-align: center;
+    margin: 3%;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 15px;
+    transition-duration: 0.1s;
+    font-family: "Lexend Deca";
+
+}
+
+.grid-container{
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+        'left left middle middle right right'
+        'left left middle middle right right';
+
+    text-align: left;
+    width: 75%;
+    height: 20%;
+    text-align: left;
+    line-height: 2;
+    padding: 5%;
+
+}
+
+.grid-item1{
+    grid-area: left;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    padding: 10%;
+
+}
+
+.grid-item2{
+    grid-area: middle;
+    background-color: hsl(184, 100%, 22%);
+    padding: 10%;
+}
+
+.grid-item3{
+    grid-area: right;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    padding: 10%;
+}
+
+@media(max-width: 800px)
+{
+    .grid-container{
+
+        display: grid;
+        margin: 0 auto;
+        grid-template-areas:
+            'left left left left left left'
+            'middle middle middle middle middle middle'
+            'right right right right right right';
+
+        text-align: left;
+        padding: 5%;
+    }
+
+    .grid-item1{
+        grid-area: left;
+        background-color: hsl(31, 77%, 52%);
+        align-self: center;
+        border-radius: 10px 10px 0px 0px;
+        padding: 10%;
+    }
+
+    .grid-item2{
+        grid-area: middle;
+        background-color: hsl(184, 100%, 22%);
+        align-self: center;
+        padding: 10%;
+    }
+
+    .grid-item3{
+        grid-area: right;
+        background-color: hsl(179, 100%, 13%);
+        align-self: center;
+        border-radius: 0px 0px 10px 10px;
+        padding: 10%;
+    }
+}
+
